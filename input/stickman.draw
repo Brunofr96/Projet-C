@@ -1,0 +1,47 @@
+# Exemple to draw a Stickman :
+
+resetPosition
+# head
+orientTo 90
+advance 30
+right 90
+circle 0 30 30 0
+resetPosition
+
+# eyes
+circle 20 50 4 0
+circle 28 55 3 0
+resetPosition
+
+# arm 1
+orientTo 190
+advance 25
+right 40
+advance 25
+resetPosition
+
+#arm 2
+orientTo 20
+advance 25
+left 20
+advance 25
+resetPosition
+
+#leg 1
+orientTo 270
+advance 50
+orientTo 230
+advance 70
+left 130
+advance 15
+resetPosition
+
+#leg 2
+orientTo 270
+advance 50
+orientTo 310
+advance 30
+right 40
+advance 30
+left 90
+advance 15
