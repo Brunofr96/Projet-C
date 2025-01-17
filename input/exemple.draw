@@ -1,0 +1,15 @@
+# Cercle : centre_x centre_y rayon déplacement
+# Exemple : cercle avec centre à (100, 100), rayon 50, et un déplacement horizontal de 100 unités
+circle 100 100 50 100
+
+# Ligne : x1 y1 x2 y2
+# Exemple : ligne de (0, 100) à (100, 100)
+line 0 100 100 100
+
+color 250 150 25
+
+# Carré : x y taille déplacement
+# Exemple : carré avec coin supérieur gauche à (200, 200), taille de côté 100, et déplacement horizontal de 20 unités
+square 200 200 100 20
+
+
